@@ -40,14 +40,24 @@ def split_words(s: str) -> list:
 '''
 4. 
 '''
-def sum_of_list(*nums: int) -> dict:
+def sum(*nums: int) -> dict:
     '''
     A function with variable length of arguments and calculate the total
     '''
-    return sum([num for num in nums])
+    sum = 0
+    for item in nums:
+        sum += item
+    return sum
+        
 # print(sum_of_list(10,20,30))
 
 '''
 5. Write a function that accept the employee's name and return basic information
 '''
+def initialize_employee(name: str, gender='Male', salary=0): 
+    return {
+        "name": name,
+        "gender": gender,
+        "salary": salary,
+    }
     
