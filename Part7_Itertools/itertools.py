@@ -14,6 +14,8 @@ def exercise_2(lst_1, lst_2):
 # print(exercise_2(lst_1=[["We", "are"], "Novobi"], lst_2= ["We", ["are", "Novobi"]]))
 
 
+
+
 '''
 3
 '''
