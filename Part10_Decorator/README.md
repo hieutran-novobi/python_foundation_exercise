@@ -1,4 +1,4 @@
-## Partial Function
+<!-- ## Partial Function -->
 1. Write the decorator, let the user enter the user name, password, and give the user
 three chances before each execution of the decorated function. After the login is
 successful, the function can be accessed.
