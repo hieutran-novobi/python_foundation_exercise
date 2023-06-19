@@ -2,8 +2,12 @@ from itertools import *
 '''
 1
 '''
+def exercise_1(lst):
+    last_name = lambda x: x.split()[-1] # extract last name
+    sorted_lst = sorted(lst, key=last_name)
+    return [list(group) for  _, group in groupby(sorted_lst, key=last_name)]
 
-
+print(exercise_1(["Thomas Brown", "Tom Smith", "Jane Brown", "John Smith"]))
 '''
 2
 '''
